@@ -1,0 +1,5 @@
+Rect(50, 100, 300, 200, fill='red')
+Rect(50, 220, 300, 40, fill='white' )
+Rect(50, 140, 300, 40, fill='white')
+Polygon(50, 300, 50, 100, 200, 200, fill='lightSkyblue')
+Star(100, 200, 35, 5, fill='white')
