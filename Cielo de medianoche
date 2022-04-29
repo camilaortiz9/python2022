@@ -1,0 +1,15 @@
+# background
+Rect(0, 0, 400, 400)
+
+# Draw the rest of the night sky!
+### (HINT: The rings of Saturn are drawn using a circle with a fill of None and
+#          a border!)
+### Place Your Code Here ###
+Circle(250, 250, 60, fill=gradient('black', 'grey', start='left'))
+Oval(150, 275, 100, 50, opacity=90, fill=gradient('black', 'grey', start='left'))
+Oval(125, 300, 100, 50, opacity=90, fill=gradient('black', 'grey', start='left'))
+Oval(200, 300, 100, 50, opacity= 90, fill=gradient('black', 'grey', start='right'))
+Line(100, 200, 275, 125, lineWidth=3, fill=gradient('black', 'white', start='right'))
+Circle(50, 50, 35, opacity=30, fill=None, border='white')
+Circle(50, 50, 30,  fill=gradient('peru', 'wheat'))
+Circle(150, 100, 25, opacity= 70, fill=gradient( 'lightsalmon', 'crimson', start='top-right'))
