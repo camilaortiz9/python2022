@@ -1,0 +1,16 @@
+# Use the Inspector to help draw the cat's head.
+### (HINT: None of the rectangles in this image overlap, except on the borders.)
+### (HINT: The cat's forehead and chin are each one big rectangle. The eyes are
+#          made by drawing three rectangles that connect the forehead and chin.)
+### Place Your Code Here ###
+Rect (100, 250, 200, 80)
+Rect (100, 215, 40, 35)
+Rect (260, 215, 40, 35)
+Rect (175, 215, 50, 35)
+Rect (100, 150, 200, 65)
+Rect (155, 230, 15, 15)
+Rect (230, 230, 15, 15)
+Rect (100, 120, 40,30)
+Rect (260, 120, 40, 30)
+Rect (100, 85, 15, 35)
+Rect (285, 85, 15, 35)
